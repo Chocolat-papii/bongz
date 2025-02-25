@@ -1,0 +1,124 @@
+.logo {
+    height: 40px;
+}
+/* Global Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: black; /* Luxury look */
+}
+
+
+/* Headings (Bold & Modern) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #D4AF37; /* Deep Gold for luxury feel */
+}
+
+/* Paragraph & Body Text */
+p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E0E0E0; /* Soft white for readability */
+}
+
+/* Buttons */
+button, .cta-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #4169E1; /* Royal Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover, .cta-btn:hover {
+    background-color: #D4AF37; /* Gold on hover */
+    color: black;
+}
+
+/* Links */
+a, .active {
+    font-family: 'Montserrat', sans-serif;
+    color: #D4AF37;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+
+}
+
+a:hover, .active:hover {
+    color: #4169E1;
+}
+
+.img-height {
+    height: 450px;
+    width: 100%;
+
+}
+
+.hero-img {
+    background-image: url(../gallery/media/index-hero.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-img::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: #333333;
+    opacity: 0.7;
+}
+
+.hero-content {
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+    
+}
+
+.hero-content h1, .hero-content p {
+    left: 20%;
+}
+
+
+.silver-text {
+    color: #E5E4E2; /* Soft Platinum for subtle text elements */
+}
+
+.silver-border {
+    border: 2px solid #C4C4C4; /* Silver Satin for elegant outlines */
+}
+
+.silver-bg {
+    background-color: #A6A6A6; /* Metallic Silver for contrast */
+}
+
+.text-dark h1 {
+    color: #333;
+}
+
+.royal-blue {
+    color: #4169E1;
+}
+
+a img:hover {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: #4169E1;
+    opacity: 0.5;
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+}
