@@ -116,3 +116,5 @@ function handleScrollAnimationB() {
   
   window.addEventListener('scroll', handleScrollAnimationB);
   handleScrollAnimationB(); // Initial check
+
+
