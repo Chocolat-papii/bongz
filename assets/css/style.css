@@ -33,6 +33,10 @@ p {
     color: #E0E0E0; /* Soft white for readability */
 }
 
+nav, footer {
+    background-color: #101933;
+}
+
 /* Buttons */
 button, .cta-btn {
     font-family: 'Montserrat', sans-serif;
@@ -47,8 +51,8 @@ button, .cta-btn {
 }
 
 button:hover, .cta-btn:hover {
-    background-color: #D4AF37; /* Gold on hover */
-    color: black;
+    background-color: #101933; /* Gold on hover */
+    color: white;
 }
 
 /* Links */
