@@ -19,7 +19,7 @@ body {
 
 
 /* Headings (Bold & Modern) */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .gold {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #D4AF37; /* Deep Gold for luxury feel */
@@ -69,9 +69,12 @@ a:hover, .active:hover {
 }
 
 .img-height {
-    height: 450px;
-    width: 100%;
+    aspect-ratio: 1/1;
 
+}
+
+.height2 {
+    height: 300px;
 }
 
 .hero-section {
@@ -122,7 +125,7 @@ a:hover, .active:hover {
 }
 
 .silver-bg {
-    background-color: #A6A6A6; /* Metallic Silver for contrast */
+    background-color: #363636; /* Metallic Silver for contrast */
 }
 
 .text-dark h1 {
