@@ -77,6 +77,11 @@ a:hover, .active:hover {
     height: 300px;
 }
 
+
+.height3 {
+    height: 360px;
+}
+
 .hero-section {
     position: relative;
     height: 100vh;
@@ -134,6 +139,10 @@ a:hover, .active:hover {
 
 .royal-blue {
     color: #4169E1;
+}
+
+.off-white {
+    background-color: #F7F7F7;
 }
 
 a img:hover {
@@ -202,3 +211,56 @@ a img:hover {
     opacity: 1;
   }
 
+  .shape, .two, .line {
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(270deg, #363636, #4169E1, #363636, #0e0e0e , #000);
+    clip-path: polygon(0% 0%, 0% 100%, 5% 100%, 5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 100%, 100% 100%, 100% 0%);
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    animation: gradientShift 6s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.text-over {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    color: #F7F7F7;
+    transform: translate(-50%, -50%); /* Adjust exact center */
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9); /* Shadow effect */
+    white-space: nowrap; /* Prevents text from breaking */
+}
+
+.table-width1 {
+    width: 800px;
+}
+
+.two {
+    width: 120px;
+    height: 64px;
+    background: linear-gradient(270deg, #000, #0e0e0e, #363636);
+
+}
+
+.line {
+    width: 170px;
+    height: 14px;
+    clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+    top: 69%;
+    background: linear-gradient(270deg, #000, #0e0e0e, #363636);
+
+}
+
+.line2 {
+    width: 170px;
+    height: 14px;
+    clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+    top: 75%;
+    background: linear-gradient(270deg, #000, #0e0e0e, #363636);
+
+
+}
