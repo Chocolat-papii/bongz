@@ -145,6 +145,11 @@ a:hover, .active:hover {
     background-color: #F7F7F7;
 }
 
+.off-white2 {
+    background-color: #f3f3f3;
+    border-radius: 1.5rem;
+}
+
 a img:hover {
     content: '';
     position: absolute;
